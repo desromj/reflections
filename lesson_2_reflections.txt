@@ -1,0 +1,8 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a hidden folder called ".git" in the directory and makes an initial commit to start the repository. By default, no files are included or tracked
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area compares differences between the repository and the working directory and gives you a chance to review them before deciding to commit or revert back to previous versions. It makes it easy to only commit changes you like as well.
+
