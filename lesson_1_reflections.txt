@@ -1,0 +1,21 @@
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: More control when determining when a commit is sufficient - clearer and more focussed chage logs. Makes sense to other viewers/users as well.
+Cons: Possible to forget to commit and still lose data, or commit many logical changes in one commit and have it be confusing to navigate.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Saving multiple files allows you to be more aware of changes made which require more than one file to operate. If a multi-file dependant system changed its files one at a time, it's possible they do not refer to the exact same version, and would be a mess to match up. At the same time, single-file systems can be wonderful if all your work is IN one file - having frequent and accurate changes could really help out as well.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+Git Log lets you easily find a certain change you may be looking for, or identify something which may have affected something else you are currently working on. Diff lets you easily see what these changes are to see what might have affected it. Not 100%, but definitely a great starting point. Probably more like 80-90%
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+If you keep your commits small, making one logical change at a time, you will always be able to go back and know for sure that you have access to a complete, functional version of your code. Talk about peace of mind!
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+I'd like to keep track of code changes in some of my programs. My database query files which constantly get updated may be good as well, since they are basic SQL files that currently don't track history.
