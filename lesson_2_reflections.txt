@@ -14,3 +14,7 @@ Q: What are some situations when branches would be helpful in keeping your histo
 
 Branches would help most when making experimental changes to your files - you do not need to be certain if something will work, but you can be certain that you'll be able to restore a complete working version of your code at any time. Also for regional differences or possibly operator differences.
 
+Q: How do the diagrams help you visualize the branch structure?
+
+I find the direction of the commit's parents the most helpful - it lets you have direct access to any and all changes from within a branch. I also like how you can check out anything and not ruin the structure of any existing code.
+
