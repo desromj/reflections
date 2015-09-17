@@ -6,3 +6,7 @@ Q: How is the staging area different from the working directory and the reposito
 
 The staging area compares differences between the repository and the working directory and gives you a chance to review them before deciding to commit or revert back to previous versions. It makes it easy to only commit changes you like as well.
 
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+You can make a whole bunch of changes at once, and then use the staging area to separate your commits into one logical change. You don't have to commit everything at once, you can separate your work out into dozens of commits if you like.
+
