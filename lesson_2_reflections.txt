@@ -22,3 +22,7 @@ Q: What is the result of merging two branches together? Why do we represent it i
 
 Merging two branchs results in a new commit with the parent being the leaf commit of each of the branches being merged. The branch which was checked out has its new root set to the new commit.
 
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is simple, fast, and useful when two branches all deal with a complete logical change. Manual merges take time, but allow for the most thorough examination of changes and efficient code.
+
