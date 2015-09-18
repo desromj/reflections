@@ -18,3 +18,7 @@ Q: How do the diagrams help you visualize the branch structure?
 
 I find the direction of the commit's parents the most helpful - it lets you have direct access to any and all changes from within a branch. I also like how you can check out anything and not ruin the structure of any existing code.
 
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branchs results in a new commit with the parent being the leaf commit of each of the branches being merged. The branch which was checked out has its new root set to the new commit.
+
