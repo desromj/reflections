@@ -5,3 +5,8 @@ view, download, and commit to your repository without needing to have access to 
 local computer, and it keeps backups in case your workstation crashes and you
 lose a lot of information. Disaster recovery!
 
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If Git pulled changes automatically, that would overwrite any changes you've made but haven't
+had the chance to commit. It would constantly cause you to lose work and not be able to recover it.
+
