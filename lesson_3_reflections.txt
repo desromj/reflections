@@ -1,0 +1,7 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+It lets you access your work from any computer you may be working on. It lets others 
+view, download, and commit to your repository without needing to have access to your
+local computer, and it keeps backups in case your workstation crashes and you
+lose a lot of information. Disaster recovery!
+
