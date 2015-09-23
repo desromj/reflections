@@ -10,3 +10,12 @@ Q: Why might you want to always pull changes manually rather than having Git aut
 If Git pulled changes automatically, that would overwrite any changes you've made but haven't
 had the chance to commit. It would constantly cause you to lose work and not be able to recover it.
 
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks clone a repository on GitHub. Clones are the same thing, except they clone a repository onto your local
+workstation. Branches allow expanding upon a repository from a commit at a certain point in time. I would use
+a fork if I want to build upon someone else's repository. I would clone a repository if I want to distribute it
+to multiple workstations, good for a finished product. I would branch if I want to expand on a repository
+and try adding a new feature. For any of these, the original repository (which was forked/cloned from) will
+remain intact and impervious to changes.
+
