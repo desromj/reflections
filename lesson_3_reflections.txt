@@ -19,3 +19,9 @@ to multiple workstations, good for a finished product. I would branch if I want 
 and try adding a new feature. For any of these, the original repository (which was forked/cloned from) will
 remain intact and impervious to changes.
 
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can be aware of any new branches or commits that happened since you pulled the last known state. If
+there is a common ancestor, you can then fast-forward merge to become up-to-date, or if not, you can tell
+which commits and branches were introduced to either continue working from or to merge and keep consistent.
+
