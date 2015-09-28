@@ -25,3 +25,10 @@ You can be aware of any new branches or commits that happened since you pulled t
 there is a common ancestor, you can then fast-forward merge to become up-to-date, or if not, you can tell
 which commits and branches were introduced to either continue working from or to merge and keep consistent.
 
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would likely use Google Drive or another file-syncing program. It would be harder to compare code, or go back in
+history to find exactly where a certain change was made. Git lets you have commit status messages - you would
+need some way to handle that in another program, and that requires you to be very proactive. Git requires you
+to be proactive, which builds that comprehensive history by default.
+
