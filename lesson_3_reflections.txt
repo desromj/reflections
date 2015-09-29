@@ -32,3 +32,11 @@ history to find exactly where a certain change was made. Git lets you have commi
 need some way to handle that in another program, and that requires you to be very proactive. Git requires you
 to be proactive, which builds that comprehensive history by default.
 
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Any time I'm trying to expand on a feature or add something new, I imagine a new branch would be optimal. If there are
+bug fixes to be made with minimal coding, perhaps staying on master would be simpler, so long as most of the stuff
+being done doesn't necessarily affect other areas. Working on master is simpler, but requires more merging and conflict
+resolution with every branch if it is not done properly. Branching is more complicated, but gives you the largest
+degree of freedom and delegation of tasks.
+
